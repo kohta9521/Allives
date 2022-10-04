@@ -328,4 +328,25 @@ video {
   background-color: #b3d4fc; /* Required when declaring ::selection */
   color: #000;
   text-shadow: none;
+}
+
+/* Loading背景画面設定　*/
+#splash {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  color: #fff;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-family: "851ゴチカクット", sans-serif;
+}
+
+/* 本番記述 */
+#container {
+  width: 100%;
+  background-image: linear-gradient(90deg, rgb(255, 55, 216), rgb(161, 15, 255));
+  height: 7000px;
+  font-family: "Quantum", sans-serif;
 }/*# sourceMappingURL=style.css.map */
