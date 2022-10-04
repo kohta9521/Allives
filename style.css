@@ -137,13 +137,11 @@ nav .inner ul li a:hover {
 .mainvisual {
   width: 100%;
   height: 100vh;
-  background-color: rgb(111, 170, 221);
 }
 
 .mainvisual__titlearea {
   width: 50%;
   height: 100%;
-  background-color: antiquewhite;
   margin: 0 auto;
 }
 
@@ -152,9 +150,8 @@ nav .inner ul li a:hover {
   width: 100%;
   height: 100vh;
   text-align: center;
-  font-size: 5.8rem;
-  margin: 0 auto;
-  background-color: aquamarine;
+  font-size: 5rem;
+  padding-top: 65%;
 }
 
 .mainvisual__subtitle {
@@ -164,9 +161,54 @@ nav .inner ul li a:hover {
   font-size: 1.2rem;
   text-align: center;
   font-family: "851ゴチカクット", sans-serif;
-  background-color: rgb(46, 119, 95);
 }
 
+@media screen and (max-width: 1025px) {
+  .mainvisual__titlearea {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .mainvisual__title {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-size: 7rem;
+    padding-top: 50%;
+  }
+  .mainvisual__subtitle {
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "851ゴチカクット", sans-serif;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainvisual__titlearea {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .mainvisual__title {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-size: 3.7rem;
+    padding-top: 90%;
+  }
+  .mainvisual__subtitle {
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: "851ゴチカクット", sans-serif;
+  }
+}
 /*  END TITLE */
 /*  START WAVE */
 .wave {
@@ -177,7 +219,7 @@ nav .inner ul li a:hover {
 
 canvas {
   position: absolute;
-  bottom: 35%;
+  top: 60%;
   left: 0;
   width: 100%;
 }
