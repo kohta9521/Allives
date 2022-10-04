@@ -25,6 +25,8 @@
     font-family: '851ゴチカクット', sans-serif;
   }
 
+
+
 //タブレットサイズ
 @media screen and (max-width : 1025px) {
     .mainvisual__titlearea {
@@ -77,6 +79,9 @@
 }
 /*  END TITLE */
 
+
+
+//fade up記述　なぜか反映されない
 .fadeUp{
   animation-name:fadeUpAnime;
   animation-duration: 6s;
