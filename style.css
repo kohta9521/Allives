@@ -322,12 +322,103 @@ canvas {
 
 /*  END WAVE */
 .about {
-  width: 100%;
-  height: 100vh;
-  color: black;
-  background-color: rgb(120, 151, 179);
+  width: 75%;
+  height: 50vh;
+  margin: 10% auto;
 }
 
+.scroll_up {
+  width: 100%;
+  height: 100%;
+}
+
+.about__title {
+  display: block;
+  width: 100%;
+  height: 10%;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.about__content {
+  display: block;
+  width: 100%;
+  height: 10%;
+  color: white;
+  font-size: 1.05rem;
+  line-height: 3;
+  text-align: center;
+  margin-top: 3%;
+}
+
+/*----------------------------
+scroll_up ｜下から上へ出現
+----------------------------*/
+.scroll_up {
+  transition: 0.8s ease-in-out;
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+.scroll_up.on {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media screen and (max-width: 1025px) {
+  .about {
+    width: 85%;
+    height: 80vh;
+    margin: 10% auto;
+  }
+  .about__title {
+    display: block;
+    width: 100%;
+    height: 10%;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 30%;
+  }
+  .about__content {
+    display: block;
+    width: 100%;
+    height: 10%;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2;
+    text-align: center;
+    margin-top: 3%;
+    padding-top: 30%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about {
+    width: 85%;
+    height: 80vh;
+    margin: -40% auto;
+  }
+  .about__title {
+    display: block;
+    width: 100%;
+    height: 10%;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: -40%;
+  }
+  .about__content {
+    display: block;
+    width: 100%;
+    height: 10%;
+    color: white;
+    font-size: 2rem;
+    line-height: 2;
+    text-align: center;
+    margin-top: 3%;
+  }
+}
 /*!
  * ress.css â€¢ v1.2.2
  * MIT License
