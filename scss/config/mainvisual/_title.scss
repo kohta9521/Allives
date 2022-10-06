@@ -14,7 +14,6 @@
     height: 100vh;
     text-align: center;
     font-size: 5rem;
-    padding-top: 65%;
   }
   .mainvisual__subtitle {
     display: block;
@@ -79,24 +78,3 @@
 }
 /*  END TITLE */
 
-
-
-//fade up記述　なぜか反映されない
-.fadeUp{
-  animation-name:fadeUpAnime;
-  animation-duration: 6s;
-  animation-fill-mode:forwards;
-  opacity:0;
-  }
-  
-  @keyframes fadeUpAnime{
-    from {
-      opacity: 0;
-    transform: translateY(100px);
-    }
-  
-    to {
-      opacity: 1;
-    transform: translateY(0);
-    }
-  }
