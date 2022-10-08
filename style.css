@@ -370,6 +370,32 @@ scroll_up ｜下から上へ出現
   .about {
     width: 85%;
     height: 80vh;
+    margin: -40% auto;
+  }
+  .about__title {
+    display: block;
+    width: 100%;
+    height: 10%;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: -40%;
+  }
+  .about__content {
+    display: block;
+    width: 100%;
+    height: 10%;
+    color: white;
+    font-size: 2rem;
+    line-height: 2;
+    text-align: center;
+    margin-top: 3%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about {
+    width: 85%;
+    height: 80vh;
     margin: 10% auto;
   }
   .about__title {
@@ -391,32 +417,6 @@ scroll_up ｜下から上へ出現
     text-align: center;
     margin-top: 3%;
     padding-top: 30%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .about {
-    width: 85%;
-    height: 80vh;
-    margin: -40% auto;
-  }
-  .about__title {
-    display: block;
-    width: 100%;
-    height: 10%;
-    color: white;
-    font-size: 5rem;
-    text-align: center;
-    padding-top: -40%;
-  }
-  .about__content {
-    display: block;
-    width: 100%;
-    height: 10%;
-    color: white;
-    font-size: 2rem;
-    line-height: 2;
-    text-align: center;
-    margin-top: 3%;
   }
 }
 /*!
